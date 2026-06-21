@@ -15,8 +15,9 @@ enforce it: one that **reports**, one that **fixes**.
 
 1. **CLAUDE.md ≤ 300 lines.** Anything not needed in context *every time* moves
    to its own file with a one-line pointer left behind (`> For X, see docs/x.md`).
-2. **CLAUDE.md always contains** the team **behavioral guidelines** (four
-   sections, see attribution below) plus a **rules block** near the top.
+2. **CLAUDE.md always contains** the team
+   [**behavioral guidelines**](https://github.com/multica-ai/andrej-karpathy-skills)
+   (four sections, see attribution below) plus a **rules block** near the top.
 3. **MEMORY.md is optional**, ceiling **150 lines**. When over, the oldest
    entries are condensed to 1–2 lines and their full text moves to **ARCHIVE.md**
    (the long-term filing cabinet), leaving a pointer behind.
